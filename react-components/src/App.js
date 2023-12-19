@@ -1,11 +1,11 @@
 import './App.css';
-import ToDoItem from './AddItem';
+import Index from './AddItem';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ToDoItem className="completed"></ToDoItem>
+        <Index></Index>
       </header>
     </div>
   );
